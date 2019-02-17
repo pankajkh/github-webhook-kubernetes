@@ -153,7 +153,7 @@
 							<serverId>${DOCKER_SERVER_ID}</serverId>
 							<registryUrl>${DOCKER_REGISTRY_URL}</registryUrl>
 							<imageName>${DOCKER_REGISTRY_ORGANIZATION}/${project.artifactId}</imageName>
-							<baseImage>frolvlad/alpine-oraclejdk8:slim</baseImage>
+							<baseImage>frolvlad/alpine-oraclejre8:slim</baseImage>
 							<imageTags>
 								<imageTag>${project.version}</imageTag>
 								<imageTag>latest</imageTag>
